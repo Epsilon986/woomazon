@@ -117,9 +117,8 @@
 						<div class="wc-proceed-to-checkout">
 							<a
 								href="<%=response
-							.encodeURL("./controleCommande.jsp?commande=effectuerCommander")%>"
-								class="checkout-button button alt wc-forward">Effectuer la
-								commande</a>
+							.encodeURL("./infosPerso.jsp")%>"
+								class="checkout-button button alt">Entrer mes informations personnelles</a>
 						</div>
 						<div class="wc-proceed-to-checkout">
 							<a
@@ -132,7 +131,6 @@
 			</div>
 		</section>
 	</div>
-</div>
 </div>
 <%
 	}
